@@ -7,7 +7,7 @@ javascript:(function(){var result='', length=7; var characters='abcdefghijklmnop
 ```
 
 Steps to insert:
-* Add a new bookmark entry in Chrome (right click on bookmark bar > `Add page`
+* Add a new bookmark entry in Chrome (right click on bookmark bar > `Add page`)
 * Give meaningful name
 * Enter snippet content as `URL`
 * Enjoy (in calendar by creating a new event in the weekly overview just click the button)
