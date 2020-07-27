@@ -3,7 +3,18 @@
 ## Google Calendar Jitsi Meet link with random characters
 
 ```
-javascript:(function(){var result='', length=7; var characters='abcdefghijklmnopqrstuvwxyz', d=document; for (var i=0; i<length; i++) {result += characters.charAt(Math.floor(Math.random() * characters.length));}; d.getElementsByClassName("DD3VVc")[1].click(); var e=d.getElementsByClassName("T2Ybvb KRoqRc editable")[0];e.innerText='https://meet.ffmuc.net/Meeting-'+result;})();
+javascript:(function(){
+	var length = 7;
+	var characters = 'abcdefghijklmnopqrstuvwxyz';
+	var result = '';
+	for ( var i = 0; i < length; i++ ) {
+		result += characters.charAt(Math.floor(Math.random() * characters.length));
+	};
+	var d=document;
+	var el = d.getElementsByClassName("DD3VVc")[1].click();
+	var e=d.getElementsByClassName("T2Ybvb KRoqRc editable")[0];
+	e.innerText='https://meet.ffmuc.net/Meeting-'+result;
+})();
 ```
 
 Steps to insert:
