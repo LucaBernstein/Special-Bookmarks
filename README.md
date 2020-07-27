@@ -1,4 +1,4 @@
-# Special-Chrome-Bookmarks
+# Special-Bookmarks
 
 ## Google Calendar Jitsi Meet link with random characters
 
