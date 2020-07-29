@@ -13,7 +13,7 @@ javascript:(function(){
 	var d=document;
 	var el = d.getElementsByClassName("DD3VVc")[1].click();
 	var e=d.getElementsByClassName("T2Ybvb KRoqRc editable")[0];
-	e.innerText='https://meet.ffmuc.net/Meeting-'+result;
+	e.innerText='https://jitsi.mpi-bremen.de/Meeting-'+result;
 })();
 ```
 
