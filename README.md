@@ -4,8 +4,8 @@
 
 ```
 javascript:(function(){
-	var length = 7;
-	var characters = 'abcdefghijklmnopqrstuvwxyz';
+	var length = 15;
+	var characters = '0123456789-_abcdefghijklmnopqrstuvwxyz';
 	var result = '';
 	for ( var i = 0; i < length; i++ ) {
 		result += characters.charAt(Math.floor(Math.random() * characters.length));
